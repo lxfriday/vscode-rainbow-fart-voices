@@ -1,0 +1,81 @@
+{
+  "version": "1.0.1",
+  "name": "wangzhe-voice",
+  "display-name": "王者荣耀语音",
+  "avatar": "avatars/nvpu.jpg",
+  "avatar-dark": "avatars/mocha.jpg",
+  "description": "不知沧海尽头藏着何种风光",
+  "author": "lxfriday",
+  "contributes": [
+    {
+      "keywords": [
+        "$time_morning",
+        "$time_noon",
+        "$time_evening",
+        "$time_midnight",
+        "$time_each_hour"
+      ],
+      "voices": ["1.mp3", "2.mp3", "3.mp3"]
+    },
+    {
+      "keywords": ["setTimeout", "setInterval"],
+      "voices": ["4.mp3", "5.mp3", "6.mp3"]
+    },
+    {
+      "keywords": ["import "],
+      "voices": ["7.mp3", "8.mp3"]
+    },
+    {
+      "keywords": ["function ", "() => "],
+      "voices": ["9.mp3", "10.mp3"]
+    },
+    {
+      "keywords": ["if (", " ? "],
+      "voices": ["11.mp3", "12.mp3"]
+    },
+    {
+      "keywords": ["else {"],
+      "voices": ["13.mp3", "14.mp3"]
+    },
+    {
+      "keywords": ["for (", "while (", "switch (", ".map("],
+      "voices": ["15.mp3", "16.mp3"]
+    },
+    {
+      "keywords": ["async "],
+      "voices": ["17.mp3"]
+    },
+    {
+      "keywords": ["await "],
+      "voices": ["18.mp3"]
+    },
+    {
+      "keywords": ["try{", "try {", "try:"],
+      "voices": ["19.mp3"]
+    },
+    {
+      "keywords": ["catch ", "except:"],
+      "voices": ["20.mp3"]
+    },
+    {
+      "keywords": ["continue\n", "break\n", "exit\n", "finally"],
+      "voices": ["21.mp3"]
+    },
+    {
+      "keywords": ["this.", "self.", "public", "private", "extends"],
+      "voices": ["22.mp3", "23.mp3", "24.mp3"]
+    },
+    {
+      "keywords": ["fuck"],
+      "voices": ["25.mp3"]
+    },
+    {
+      "keywords": ["kiss"],
+      "voices": ["26.mp3"]
+    },
+    {
+      "keywords": ["hello"],
+      "voices": ["27.mp3"]
+    }
+  ]
+}
